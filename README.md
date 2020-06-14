@@ -1,3 +1,3 @@
 # postcss-tailwind-comments
 
-[wip]
+Inserts heading for each tailwindcss module section.

@@ -1,6 +1,6 @@
 {
   "name": "postcss-tailwind-comments",
-  "version": "0.1.0",
+  "version": "0.7.0",
   "description": "[wip]",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,14 @@
     "url": "git+https://github.com/idmytro/postcss-tailwind-comments.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dmytro Cisar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/idmytro/postcss-tailwind-comments/issues"
   },
   "homepage": "https://github.com/idmytro/postcss-tailwind-comments#readme",
   "dependencies": {
+    "lodash.camelcase": "^4.3.0",
     "postcss": "^7.0.32"
   }
 }
