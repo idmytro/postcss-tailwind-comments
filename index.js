@@ -75,9 +75,9 @@ module.exports = postcss.plugin('postcss-tailwind-comments', function () {
             const prevKey = getPropKeyFromRule(rule.prev());
 
             if (!prevKey) {
-                rule.raws.before = `/* ${key} */\n`
+                rule.raws.before = `/* ${key} */\n`;
             } else if (prevKey !== key) {
-                rule.raws.before = `\n/* ${key} */\n`
+                rule.raws.before = `\n/* ${key} */\n`;
             }
         });
     };
