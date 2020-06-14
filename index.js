@@ -34,17 +34,17 @@ module.exports = postcss.plugin('postcss-tailwind-comments', function (opts) {
   opts = opts || {};
   return function (root) {
     root.walkRules(rule => {
-        const prevRule = rule.prev();
-        const prop = rule.first.prop;
-        const prevProp = prevRule && prevRule.first.prop;
-        const key = getPropKey(prop);
-        const prevKey = getPropKey(prevProp);
+      const prevRule = rule.prev();
+      const prop = rule.first.prop;
+      const prevProp = prevRule && prevRule.first.prop;
+      const key = getPropKey(prop);
+      const prevKey = getPropKey(prevProp);
 
-        if (!prevKey) {
-            rule.raws.before = `/* ${key} */\n`
-        } else if (prevKey !== key) {
-            rule.raws.before = `\n/* ${key} */\n`
-        }
+      if (!prevKey) {
+          rule.raws.before = `/* ${key} */\n`
+      } else if (prevKey !== key) {
+          rule.raws.before = `\n/* ${key} */\n`
+      }
     });
   };
 });

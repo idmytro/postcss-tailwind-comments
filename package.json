@@ -1,0 +1,23 @@
+{
+  "name": "postcss-tailwind-comments",
+  "version": "0.1.0",
+  "description": "[wip]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idmytro/postcss-tailwind-comments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idmytro/postcss-tailwind-comments/issues"
+  },
+  "homepage": "https://github.com/idmytro/postcss-tailwind-comments#readme",
+  "dependencies": {
+    "postcss": "^7.0.32"
+  }
+}
