@@ -19,6 +19,6 @@
   "homepage": "https://github.com/idmytro/postcss-tailwind-comments#readme",
   "dependencies": {
     "lodash.camelcase": "^4.3.0",
-    "postcss": "^7.0.32"
+    "postcss": "^8.2.10"
   }
 }
